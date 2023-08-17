@@ -1,0 +1,91 @@
+:root{
+    --clr-maroon:#00baa8;
+    --clr-white:#000;
+  }
+  
+  *,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    background-color: var(--clr-maroon);
+    color: var(--clr-white);
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+  
+  .section{
+    width: 50vw;
+    margin: 0 auto;
+    /* max-width: 200px; */
+  }
+  
+  .container{
+    width: 320px;
+    margin: 100px auto;
+    background: #ffff;
+    padding: 1.5rem 2rem;
+    border-radius: 5px;
+  }
+  
+  .container h3{
+    font-weight: normal;
+    text-transform: none;
+    margin-bottom: 2rem;
+  }
+  
+  .person{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    align-items: center;
+  }
+  
+  .person img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(#000000c3);
+  }
+  
+  .person h4{
+    margin-bottom: 0.35rem;
+  }
+  
+  .person p{
+    margin-bottom: 0;
+  }
+  
+  .container button{
+    color: var(--clr-white);
+    display: block;
+    width: 60%;
+    border-color: transparent;
+    background: #ced370;
+    margin: 2rem auto 0 auto;
+    text-transform: capitalize;
+    /* font-size: 1.2rem; */
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    border-radius: 5px;
+    /* outline: 1px solid rgba(242, 138, 178, 0.8); */
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+
+  .heading{
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: yellow;
+    text-align: center;
+    background-color: #000;
+  }
